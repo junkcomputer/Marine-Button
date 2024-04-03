@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('img/marine.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.7); 
+  padding: 20px;
+  border-radius: 10px; 
+  text-align: center;
+}
+
+.main p {
+  color: black; 
+  font-size: 24px;
+  text-align: center;
+  margin-inline: 24px;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.main button {
+  background-color: aqua;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main button:hover {
+  background-color: aquamarine;
+}
